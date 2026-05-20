@@ -66,6 +66,8 @@
 5. 如有冲突 → git reset --hard HEAD   # 放弃恢复，保留 stash
 ```
 
+![Hermes Agent Architecture](assets/hermes-agent-architecture.png)
+
 ### Operator 如何生存
 
 | 操作 | 影响 Operator? | 原因 |
@@ -819,14 +821,7 @@ class DiscreteAuditLogger:
 
 ## 十一、实施路径
 
-| 阶段 | 内容 | 预估时间 |
-|------|------|----------|
-| **Phase 1** | Operator Profile + 插件骨架 + JWT 认证 | 2-3 天 |
-| **Phase 2** | FastAPI 服务 + AIAgent 集成 + 会话 CRUD | 3-4 天 |
-| **Phase 3** | 审核/离散化模块 + 扩展指令注入 | 2-3 天 |
-| **Phase 4** | Web Dashboard 前端 | 3-5 天 |
-| **Phase 5** | 部署 + systemd + Nginx + 自动升级 cron | 1-2 天 |
-| **Phase 6** | 测试 + 压力测试 + 安全审计 | 2-3 天 |
+![Hermes Agent Workflow](assets/hermes-agent-workflow.png)
 
 ---
 
