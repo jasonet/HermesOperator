@@ -2,6 +2,8 @@
 
 > 公共服务器部署 Hermes Agent + 独立的 Operator 审核控制系统
 
+![Hermes Group Architecture](assets/hermes-group-architecture.png)
+
 ---
 
 ## 一、设计目标
